@@ -7,7 +7,7 @@
 img {
 	margin-top: 10px;
 	margin-left: 10px;
-	margin-bottom: -30px;
+	margin-bottom: -15px;
 }
 
 
@@ -43,5 +43,34 @@ a:hover {
 	color:#DD9728;
 }
 
+/*this is stylinh for the banner image on the front page*/
+
+.banner {
+	width:100%;
+	margin: none;
+}
+
+/*this is styling for the links on the front page*/
+.trails {
+	float:left;
+	width:300px;
+	height:200px;
+	margin:20px;
+}
+
+.gear {
+	float:left;
+	width:300px;
+	height:200px;
+	margin:20px;
+}
+
+.recipes {
+	float:left;
+	width:300px;
+	height:200px;
+	margin:20px;
+}
+	
 
 

@@ -47,6 +47,20 @@ a:hover {
 	margin: none;
 }
 
+
+
 /*this is styling for the links on the front page*/
+.trails{
+	width:30%;
+	float:left;
+}
 
-
+.gear{
+	width:30%;
+	float:left;
+}
+	
+.recipes {
+	width:30%;
+	float:left;
+}

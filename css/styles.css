@@ -2,6 +2,10 @@
 /* CSS Document */
 
 /*Styling for text*/
+
+
+	
+
 p {
 	font-family: avenir;
 	line-height: auto;
@@ -24,21 +28,22 @@ h2 {
 
 /*this is styling for the img header*/
 
-.banner {
-	margin: none;
+.header {
+	margin: 10px;
 }
-
 
 /*this is styling for the nav bar*/
 
 nav {
 	background-color: white;
-	width: 100%;
-	height: 30px;
+	width: 103%;
+	height: 65px;
 	margin-top: -20px;
 	margin-left: -20px;
-	margin-right: -20px;
-	padding: 20px;
+	margin-bottom: 5px;
+
+
+
 }
 
 nav ul {
@@ -46,14 +51,15 @@ nav ul {
 }
 
 nav li {
-	float:right;
-	width: 50px;
+	float:left;
+	margin-right: 50px;
+	line-height: 65px;
 }
 
 a:link {
 	text-decoration: none;
 	color: black;
-	font-family: sans-serif;
+	font-family: avenir;
 }
 
 a:visited {
@@ -92,19 +98,23 @@ a:hover {
 /*Styling for Trails page*/
 
 .trailinfo {
+	
 	width: 900px;
-	margin-top: 50px;
+	padding: 10px;
+	
+	
 }
 
 /*Styling for Gear page*/
 
-body {
-	background-image: url(../images/gearbg.jpg);
-}
-.gearinfo {
-	width: 900px;
-	margin-top: 50px;
+
+
+.background {
+	background-color: rgba(225,225,225,.5);
+	width: 100%;
+	height: 900px;
+	
 }
 	
 
-
+	

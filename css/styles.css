@@ -105,16 +105,51 @@ a:hover {
 	
 }
 
-/*Styling for Gear page*/
-
-
-
 .background {
 	background-color: rgba(225,225,225,.5);
 	width: 100%;
 	height: 900px;
 	
 }
+
+
+/*Styling for Gear page*/
+.gearinfo {
+	width: 900px;
+	padding:20px;
+	text-align:left;
+}
+
+.gearbackground {
+	background-color: rgba(225,225,225,.5);
+	width: 100%;
+	height: 900px;
+}
+
 	
 
+
+
+/*Styling for recipes page*/
+
+.title {
+	width: 900px;
+	padding:20px;
+	text-align:left;
+}
+
+.recipesbackground {
+	background-color: rgba(225,225,225,.5);
+	width: 100%;
+	height: 1050px;
+	
+}
+	
+/*Styling for background images*/
+
+body {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: auto;
+}
 	

@@ -26,11 +26,6 @@ h2 {
 	font-weight:300;
 }
 
-/*this is styling for the img header*/
-
-.header {
-	margin: 10px;
-}
 
 /*this is styling for the nav bar*/
 
@@ -41,9 +36,6 @@ nav {
 	margin-top: -20px;
 	margin-left: -20px;
 	margin-bottom: 5px;
-
-
-
 }
 
 nav ul {
@@ -67,16 +59,8 @@ a:visited {
 }
 
 a:hover {
-	color:#DD9728;
+	color: #43736F;
 }
-
-/*this is styling for the banner image on the front page*/
-
-.banner {
-	width:100%;
-	margin: none;
-}
-
 
 
 /*this is styling for the links on the front page*/
@@ -93,6 +77,14 @@ a:hover {
 .recipes {
 	width:30%;
 	float:left;
+}
+
+/*Styling for Home page*/
+
+
+.quoteimg {
+	align-content: center;
+	margin-top: 100px;
 }
 
 /*Styling for Trails page*/
@@ -147,9 +139,27 @@ a:hover {
 	
 /*Styling for background images*/
 
-body {
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	width: auto;
+.trailsbg {
+	background-image: url("../images/trails.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
 }
-	
+
+.recipesbg {
+	background-image: url("../images/recipes.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.gearbg {
+	background-image: url("../images/gear.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.homebg {
+	background-image: url("../images/home.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:auto;
+}
